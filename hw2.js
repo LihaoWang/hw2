@@ -63,5 +63,5 @@ word.guessLetter = function (letter) {
 
 word.guessLetter("F");
 word.guessLetter("O");
-word.guessLetter("X");
+word.guessLetter("A");
 
