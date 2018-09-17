@@ -1,13 +1,8 @@
-
 var guess = ["_", "_", "_"];
-
-
 var wordList = ["FOX", "CAT", "Monkey"];
-
-
-var random = Math.floor(Math.random() * 4);
+var random = Math.floor(Math.random() * 3);
 var count = 8;
-var word = {}
+var word = {};
 
 word.randomWord = function () {
   var guessWord = [];
@@ -63,5 +58,5 @@ word.guessLetter = function (letter) {
 
 word.guessLetter("F");
 word.guessLetter("O");
-word.guessLetter("A");
+word.guessLetter("X");
 
